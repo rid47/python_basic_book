@@ -1,0 +1,2 @@
+myStr = "Ridwan"
+print(len(myStr))
