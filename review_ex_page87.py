@@ -1,9 +1,9 @@
 def my_lowercse_function(myString):
     return myString.lower()
 
+
 # def my_uppercase_function(myString):
 #     return myString.upper()
-
 value = my_lowercse_function("Animal")
 value2 = my_lowercse_function("Honey Bee")
 value3 = my_lowercse_function("Honeybadger")
@@ -20,8 +20,10 @@ print(string2.rstrip())
 string3 = "Cheeseburger     "
 print(string3.strip())
 
+
 def result(string):
     return string.startswith("be")
+
 
 string = "Becomes"
 string2 = "becomes"
@@ -29,3 +31,10 @@ string3 = "BEAR"
 string4 = "bEautiful"
 
 print(result("Becomes"))
+print(result(string2))
+print(result(string3))
+print(result(string4))
+
+print(result(string.lower()))
+print(result(string3.lower()))
+print(result(string4.lower()))
