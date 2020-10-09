@@ -1,0 +1,105 @@
+ <!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+    
+      </head>
+
+  <body>
+
+    <div class="container">
+
+<h2>Medical Questionnaire</h2>
+
+<form>
+  <fieldset class="form-group">
+
+    <legend>Pet Info</legend>
+
+    <div class="form-group">
+      <label for="petname">Pet name</label>
+      <input class="form-control" type="text" id="petname" placeholder="Your Pet's name">
+    </div>
+
+    <div class="form-group">
+      <label for="pettype">Pet type</label>
+      <select class="custom-select" id="pettype">
+        <option>Choose</option>
+        <option value="cat">Dog</option>
+        <option value="cat">Cat</option>
+        <option value="bird">Other</option>
+      </select>
+    </div>
+
+  <fieldset class="form-group">
+    <legend>Pet Medical Data</legend>
+    <div class="form-group">
+      <label class="d-block">Has your pet been spayed or neutered?</label>
+
+      <div class="custom-control custom-radio">
+        
+          <input class="form-check-input" type="radio" name="spayneut" value="yes" checked> 
+        <label class="form-check-label">Yes</label>
+      </div>
+
+      <div class="form-check">
+       
+          <input class="form-check-input" type="radio" name="spayneut" value="no">
+         <label class="form-check-label"> No</label>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label>Has the pet had any of the following in the past 30 days</label>
+
+      <div class="custom-control custom-checkbox">
+        
+          <input class="custom-control-input" type="checkbox" id="ill-abdominal"> 
+        <label class="custom-control-label" for="ill-abdominal">Abdominal pain</label>
+      </div>
+
+      <div class="custom-control custom-switch">
+        
+          <input class="custom-control-input" type="checkbox" id="ill-weakness">
+        <label class="custom-control-label" for="ill-weakness">Weakness</label>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="painlevel">Level of pain</label>
+      <input type="range" class="custom-range" min="0" max="10" id="painlavel">
+
+    </div>
+
+    <div class="form-group">
+      <div class="custom-file">
+        <input type="file" class="custom-file-input" id="petphoto">
+        <label class="custom-file-label" for="petphoto">Upload photo</label>
+      </div>
+    </div>
+
+
+  </fieldset>
+
+  <button class="btn btn-primary" type="submit">Submit</button>
+</form>
+
+
+</div><!-- content container -->
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+  </body>
+</html>

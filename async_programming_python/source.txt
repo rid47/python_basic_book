@@ -1,0 +1,10 @@
+https://github.com/realpython/materials/tree/master/understanding-asynchronous-programming
+
+Threading:
+https://realpython.com/intro-to-python-threading/
+YouTube video: https://www.youtube.com/watch?v=IEEhzQoKtQU&ab_channel=CoreySchafer
+
+
+
+Async programming:
+https://realpython.com/python-async-features/#understanding-asynchronous-programming

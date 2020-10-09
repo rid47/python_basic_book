@@ -1,0 +1,6 @@
+This is my file.
+There are many like it,
+but this one is mine.
+Non SEQUITURThis is my new line
+This is my new line
+This is my new line

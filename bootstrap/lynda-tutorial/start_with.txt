@@ -1,0 +1,18 @@
+Start with Modals
+
+github link:
+https://github.com/planetoftheweb/bootstrap4
+
+lynda.com:
+Library Card Number: 21111023281850
+Library Card PIN: 8384
+
+
+vertical alignment
+use in col class -> 
+vertical: align self start/center/end
+
+
+use in row class-> 
+horizontal: justify-content-start/center/end/around/between (need to specify col width)
+			align-items-start/center/end

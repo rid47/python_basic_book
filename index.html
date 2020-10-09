@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My GeoCode App</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+<body>
+
+<script type="text/javascript">
+
+var location = 'Dhaka';
+geocode();	
+function geocode(){
+
+	axios.get('https://maps.googleapis.com/maps/api/geocode/json', {
+
+		params: {
+			address:location,
+			key:'AIzaSyCQpxX4z9jnpfTW1Q18GDLb8asbXVmge94'
+		}
+	}).then(function(response){
+		console.log(response);
+
+	})
+	.catch(function(error){
+		console.log(error);
+	})
+
+}
+
+
+
+
+</script>
+
+
+</body>
+</html>
